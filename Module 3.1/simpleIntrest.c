@@ -12,6 +12,6 @@ int main()
     x=a*b*c*0.01;
     printf("SIMPLE INTREST:%.2f\n",x);
     y=x+a;
-    printf("AMOUNT:%.2f",y);
+    printf("AMOUNT:%.2f rupees",y);
     return 0;
 }
