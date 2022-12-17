@@ -2,6 +2,7 @@
 int main()
 {
     int a;
+    char b = 'A';
     printf("Enter the number of rows: ");
     scanf("%d", &a);
     printf("\n");
@@ -9,7 +10,8 @@ int main()
     {
         for (int j = 1; j <= i; j++)
         {
-            printf("* ");
+            printf("%c ", b);
+            b = b + 1;
         }
         printf("\n");
     }

@@ -10,11 +10,11 @@ int main()
         scanf("%d", &a);
         if (a > 5 || a < 1)
         {
-            printf(" please enter a valid number and try again");
+            printf("Please enter a valid number and try again");
         }
         else if (a == 5)
         {
-            printf("Thank you");
+            printf("----Thank you----");
         }
         else
         {
